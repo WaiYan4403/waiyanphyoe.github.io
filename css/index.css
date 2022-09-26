@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,200&family=Nunito:wght@200&display=swap" rel="stylesheet');
+
+:root{
+    --white:rgb(240, 240, 240);
+    --silver:rgb(172, 172, 172);
+    --gray:rgb(119, 119, 119);
+    --grey:rgb(79, 79, 79);
+    --darkgrey:rgb(16,16,16);
+    --dark:rgb(0,0,0);
+}
+
+*{
+    font-family: 'Nunito' ,sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+    text-transform: none;
+    scroll-behavior: smooth;
+}
+section{
+    height: 130vh;
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    font-size: 50px;
+}
+#about{
+    height: 150vh;
+}
+
+body{
+    background: var(--dark);
+}
+
+.nav{
+    background: var(--dark);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.nav a{
+    color: var(--silver);
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.nav a:hover{
+    color: var(--gray);
+}
+.nav a.active{
+    color: var(--white);
+}
+ 
+h1{
+    text-align: center;
+    font-size: 5rem;
+    text-transform: uppercase;
+}
+h3{
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.introduction{
+    align-items: center;
+    margin-top: 2rem;
+}
+.introduction img{
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+.introduction p{
+    color: var(--silver);
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    text-align: left;
+}
+
+.projects_section h1{
+    text-align: center;
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+.projects_section p{
+    color: var(--silver);
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    text-align: left;
+}
+
+.games_section h1{
+    text-align: center;
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+.games_section p{
+    color: var(--silver);
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    text-align: left;
+}
+.about_section h1{
+    text-align: center;
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+.about_section .about{
+    align-items: center;
+}
+.about_section .about p{
+    color: var(--silver);
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    text-align: left;
+}
+
+.contact_section h1{
+    text-align: center;
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+.contact_section a{
+    color: var(--silver);
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    /* text-align: center; */
+}
+.contact_section p{
+    color: var(--silver);
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    text-align: left;
+}
